@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.aula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36393f;
+    height: 100vh;
+}
+
+.container {
+    background-color: #40444b;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.diretorio-caixas {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .bx {
+    width: 96px;
+    height: 96px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.bx-geral {
+    background-color: #B5BAC1;
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+    text-align: center;    
+}
+
+
+.bx-geral:hover {
+    background-color: #1E1F22;
+    color: #fff;
+    transition: all 0.40s ease;
+}
+
+.vava img {
+    width: 96px;
+    height: 96px;
+    background-size: 100% 100%;
+    border-radius: 13px;
+}
+
+.cornos img {
+    width: 96px;
+    height: 96px;
+    background-size: 100% 100%;
+    border-radius: 13px;
+}
+
+.sifu img {
+    width: 96px;
+    height: 96px;
+    background-size: 100% 100%;
+    border-radius: 13px;
+}
+
+p.legenda {
+    margin-top: 5px;
+}
