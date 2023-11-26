@@ -37,15 +37,6 @@ h2 {
     align-items: center;
 }
 
-/* .bx {
-    width: 96px;
-    height: 96px;
-    border-radius: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .bx-geral {
     background-color: #B5BAC1;
     border-radius: 15px;
@@ -84,4 +75,19 @@ h2 {
 
 p.legenda {
     margin-top: 5px;
+}
+
+/* aqui começa o novo container direcionado para os grupos de whatsaap */
+
+
+.aula{
+    flex-direction: column;
+}
+
+.gp {
+    margin-top: 30px;
+}
+
+.legenda-gp {
+    max-width: 96px;
 }
